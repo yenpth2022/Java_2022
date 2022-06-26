@@ -9,6 +9,8 @@ public class MinMaxValue {
         int maxNum = myIntArr[0];
 
         for (int index = 0; index < myIntArr.length; index++) {
+            // cai vong for nay minh lap theo index, roi lay myIntArr[index] de lay tung phan tu cua list (hoac array) ra do
+            // con vong for o bai animal la minh ko can index ma lay truc tiep tung phan tu (animal) ra
             if (myIntArr[index] < minNum) {
                 minNum = myIntArr[index];
             } else {

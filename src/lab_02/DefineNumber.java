@@ -2,7 +2,7 @@ package lab_02;
 
 import java.util.Scanner;
 
-public class NumberDefine {
+public class DefineNumber {
 
     public static void main(String[] args) {
 
