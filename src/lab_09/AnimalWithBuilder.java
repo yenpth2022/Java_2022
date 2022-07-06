@@ -42,22 +42,13 @@ public class AnimalWithBuilder {
         // Write Only
         public Builder setName(String name) {
             this.name = name;
-            if (name.equals("Dog")) {
-                this.speed = new SecureRandom().nextInt(50);
-            } else if (name.equals("Tiger")) {
-                this.speed = new SecureRandom().nextInt(100);
-            } else if (name.equals("Horse")) {
-                this.speed = new SecureRandom().nextInt(75);
-            } else if (name.equals("Falcon")) {
-                this.speed = new SecureRandom().nextInt(120);
-            }
             return this;
         }
 
-//        public Builder setSpeed(int speed) {
-//            this.speed = speed;
-//            return this;
-//        }
+        public Builder setSpeed(int speed) {
+            this.speed = speed;
+            return this;
+        }
 
         public Builder setFlyable(boolean flyable) {
             this.flyable = flyable;

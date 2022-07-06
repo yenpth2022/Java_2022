@@ -9,7 +9,7 @@ public class Controller {
         String fastest = "";
         for (AnimalWithBuilder animal : animalList) {
             if (animal.isFlyable() == true) {
-
+                System.out.println(animal.getName() + " has wings so can't join the racing");
             } else {
                 // flyable = false =>> Compare speed =>> Find fastest
                 if (animal.getSpeed() > maxSpeed) {
